@@ -7,6 +7,8 @@ li{
     font-size: larger;
     color: aqua;
     color: red;
+}
 
-   
+li{
+    background-color: firebrick;
 }
