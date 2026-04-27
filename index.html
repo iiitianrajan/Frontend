@@ -7,5 +7,16 @@
 </head>
 <body>
     <h1>Event in javaScript</h1>
+    <ul>
+        <li id="list1">X:</li>
+        <li id="list2">Y:</li>
+    </ul>
+    <script>
+        window.addEventListener('mousemove',(e)=>{
+            document.getElementById('list1').innerText ='X:' + e.clientX;
+            document.getElementById('list2').innerHTML ='Y:' + e.clientY;
+        })
+
+    </script>
 </body>
 </html>
